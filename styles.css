@@ -1,0 +1,25 @@
+* {
+  color: black;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR STYLE*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+.a-no-underline {
+  text-decoration: none;
+}
