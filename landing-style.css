@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap');
 
+:root {
+  --black: black;
+  --white: white;
+}
 * {
-  color: black;
   margin: 0;
   font-family: Sunflower;
   box-sizing: border-box;
@@ -29,6 +32,7 @@ main {
   display: grid;
   justify-content: center;
   align-content: center;
+  color: var(--black);
 }
 
 .grid-wrapper {
@@ -47,7 +51,7 @@ main {
   background-color: rgba(255, 255, 255, 0.616);
   padding: 40px;
   width: fit-content;
-  box-shadow: 0px 0px 40px rgb(255, 255, 255);
+  box-shadow: 0px 0px 40px var(--white);
 }
 
 .a-no-underline {
@@ -56,10 +60,11 @@ main {
 
 .a-home {
   border-radius: 25px;
-  background-color: rgb(0, 0, 0);
+  background-color: var(--black);
+;
   padding: 12px;
-  color: white;
-  fill: white;
+  color: var(--white);
+  fill: var(--white);
   width: fit-content;
   display: flex;
   margin: auto;
@@ -67,18 +72,19 @@ main {
 }
 
 .a-home:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.76);
-  color: rgb(0, 0, 0);
-  fill: rgb(0, 0, 0);
+  color: var(--black);
+  fill: var(--black);
 }
 
 .scroll-section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 30px;
-  background-color: black;
+  gap: 90px;
+  padding: 40px;
+  background-color: var(--black);
 }
 
 .scroll-section__info {
@@ -88,11 +94,14 @@ main {
 }
 
 .info-text {
-  
+  padding: 0px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .info-text h2,p{
-  color: white;
+  color: var(--white);
 }
 
 .info-hero img {
