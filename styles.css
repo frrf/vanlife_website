@@ -71,3 +71,14 @@ body {
   width: 715px;
   /* box-shadow: 0px 0px 20px rgba(192, 192, 192, 0.452); */
 }
+
+.info-text {
+  padding: 0px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-text h2,p{
+  color: var(--white);
+}

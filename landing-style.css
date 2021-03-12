@@ -58,17 +58,6 @@ main {
   width: fit-content;
 }
 
-.info-text {
-  padding: 0px 40px 40px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.info-text h2,p{
-  color: var(--white);
-}
-
 /* LINKS SECTION */
 
 #links-section {
