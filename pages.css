@@ -54,17 +54,6 @@ main {
   background-color: var(--black);
 }
 
-.scroll-section__info {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.info-hero img {
-  width: 700px;
-  /* box-shadow: 0px 0px 20px rgba(192, 192, 192, 0.452); */
-}
-
 .scroll-section__info a {
   padding-top: 10px;
   color: aqua;
