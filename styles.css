@@ -20,6 +20,11 @@ body {
   width: 100%;
 }
 
+main {
+  background-position: center;
+  background-size: cover;
+}
+
 .a-no-underline {
   text-decoration: none;
 }
