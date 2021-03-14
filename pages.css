@@ -11,6 +11,7 @@ nav {
 
 nav a {
   color: white;
+  margin-right: 10px;
 }
 
 nav a svg {
@@ -26,6 +27,8 @@ nav a svg:hover {
 ul {
   list-style-type: none;
   display: flex;
+  padding: 0px;
+  width: 100%;
 }
 
 ul li:hover {
@@ -35,8 +38,15 @@ ul li:hover {
 }
 
 ul li {
-  margin: 0px 0px 0px 90px;
+  /* margin: 0px 0px 0px 90px; */
+  display: flex;
+  justify-content: flex-start;
 }
+
+ul li:first-child {
+  margin-right: auto;
+}
+
 
 main {
   height: 45vh;
@@ -57,11 +67,24 @@ main {
     top: 0;
   }
 
-  nav ul {
-    padding: 0px;
-  }
-
   main {
     margin-top: 60px;
   }
+  
+  .desk {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: space-around;
+  }
+
+  ul li:first-child {
+    margin-right: unset;
+  }
+
+  nav a {
+    margin: 0px;
+  }
+
 }
