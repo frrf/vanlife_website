@@ -61,7 +61,6 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 90px;
   padding: 90px 40px 90px 40px;
   background-color: var(--black);
 }
@@ -72,14 +71,12 @@ main {
   justify-content: space-evenly;
 }
 
-.info-hero {
-  padding: 5px;
-}
 
 .info-hero img {
   width: 100%;
   height: auto;
   max-width: 1000px;
+  border-radius: 5px;
 }
 
 .info-text {
@@ -100,6 +97,11 @@ main {
     height: auto;
     width: auto;
   }
+
+  .scroll-section {
+    padding: 20px 15px 20px 15px;
+  }
+
   .scroll-section__info {
     width: 100%;
     display: flex;
@@ -108,5 +110,9 @@ main {
 
   .flex-reverse {
     flex-direction: column-reverse;
+  }
+
+  .info-text {
+    padding: 0px 0px 40px 0px;
   }
 }
